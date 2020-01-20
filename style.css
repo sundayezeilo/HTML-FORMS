@@ -1,0 +1,56 @@
+body {
+
+   background-color: #eee;
+
+}
+
+.pull-right{
+    float: right;
+}
+
+.pull-left{
+    float: left;
+}
+
+.sign-in-area{
+
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    right: 40px;
+}
+
+.sign-in-area button{
+
+    height: 40px;
+    border-radius: 8px;
+    width: 100px;
+    color: #fff;
+    font-size: 17px;
+    text-transform: capitalize;
+    border: none;
+    background: #1a1ad2;
+
+}
+
+.sign-in-area p {
+
+    margin-top: 0px;
+
+}
+
+.sign-in-area a{
+
+    right: 10px;
+    top: -12px;
+    text-decoration: none;
+    position: relative;
+    color: #2d2d92;
+
+}
+
+.sign-in-area .fa-lock{
+
+    padding-right: 5px;
+    
+}
