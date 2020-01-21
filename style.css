@@ -1,5 +1,5 @@
 body {
-  background-color: #eee;
+  background-color: #eeeeeeeee;
 }
 
 .container {
@@ -31,7 +31,7 @@ body {
   height: 40px;
   border-radius: 8px;
   width: 100px;
-  color: #fff;
+  color: #fffffffff;
   font-size: 17px;
   text-transform: capitalize;
   border: none;
@@ -79,7 +79,7 @@ body {
 
 /* Forms Section */
 .form-section {
-  background-color: #fff;
+  background-color: #fffffffff;
   position: absolute;
   margin-top: 120px;
   margin-left: -35px;
@@ -100,7 +100,7 @@ a {
 
 .form-section input {
   width: 100%;
-  border: #000 solid 1px;
+  border: #000000 solid 1px;
   margin-top: 20px;
   padding: 10px;
   border-radius: 3px;
@@ -133,7 +133,7 @@ form p {
   width: 100%;
   margin-top: 10px;
   margin-left: 10px;
-  color: #fff;
+  color: #fffffffff;
   border-radius: 8px;
   font-size: 18px;
   font-family: "Muli", sans-serif;
@@ -160,7 +160,7 @@ form p {
   background: #6b6868;
   width: 100%;
   padding: 0;
-  color: #fff;
+  color: #fffffffff;
   margin-left: -40px;
 }
 
