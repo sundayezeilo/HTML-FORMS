@@ -1,223 +1,179 @@
 body {
-
-   background-color: #eee;
-
-}
-
-.container{
- 
-    display: flex;
-    justify-content: center;
-    position: relative;
-    top: 10vh;
-
-}
-
-.pull-right{
-    float: right;
-}
-
-.text-center{
-
-   text-align: center;
-
-}
-
-.pull-left{
-    float: left;
-}
-
-.sign-in-area{
-
-    position: absolute;
-    display: flex;
-    flex-wrap: nowrap;
-    right: 20px;
-
-}
-
-.sign-in-area button{
-
-    height: 40px;
-    border-radius: 8px;
-    width: 100px;
-    color: #fff;
-    font-size: 17px;
-    text-transform: capitalize;
-    border: none;
-    background: #1a1ad2;
-
-}
-
-.sign-in-area p {
-
-    margin-top: 0px;
-
-}
-
-.sign-in-area a{
-
-    right: 10px;
-    top: -12px;
-    text-decoration: none;
-    position: relative;
-    color: #2d2d92;
-
-}
-
-.sign-in-area .fa-lock{
-
-    padding-right: 5px;
-
-}
-
-.main-body img{
-
+    background-color : #eee;
+    }
     
-    height: 40px;
-}
-
-.minor-logos{
-
-    margin-left: -100px;
-    margin-top: 10px;
-}
-
-.minor-logos span{
-
-    padding-left: 5px;
-    padding-right: 5px;
-    font-family: 'Ubuntu', sans-serif;
-    position: relative;
-    top: -10px;
-    font-size: 20px;
-    color: #887e7e;
-
-}
-
-.minor-logos img{
-    height: 25px;
-}
-
-/* ==== form section ==== */
-
-.form-section {
-
-    background-color: #fff;
-    position: absolute;
-    margin-top: 120px;
-    margin-left: -35px;
-    padding: 40px;
-}
-
-.form-section ,h1 ,p ,a {
-
-   text-align:  center;
-    font-family: 'Muli', sans-serif;
-
-}
-
-.form-section form {
-
-    padding-top: 35px;
-    padding-bottom: 35px;
-
-}
-
-.form-section input{
-
-    width: 100%;
-    border: 1px solid #000;
-    margin-top: 20px;
-    padding: 10px;
-    border-radius: 3px;
-    margin-bottom: 20px;
-}
-
-.form-section label{
-    position: absolute;
-    
-    left: 40px;
-}
-
-#phonenumber{
-    margin-top: 35px;
-}
-
-#password{
-
-    margin-top: 35px;
-
-}
-
-form p{
-    
-    font-size: 10px;
-    text-align: left;
-    margin-top: -15px;
-}
- 
-.submit-btn{
-
-    background-color: blue;
-    border: none;
-    height: 50px;
-    width: 100%;
-    margin-top: 10px;
-    margin-left: 10px;
-    color: #fff;
-    border-radius: 8px;
-    font-size: 18px;
-    font-family: 'Muli', sans-serif;
-    outline: none;
-    text-transform: capitalize;
-}
-
-.submit-btn i{
-
-    padding-right: 10px;
-
-}
-
-.form-footer{
-
-    left: 12%;
-    width: 80%;
-    position: absolute;
-    margin-top: -8px;
-    font-size: 12px;
-}
-
-.rupture {
-
-    position: absolute;
-    height: 70px;
-    margin-top: 40px;
-    background: #6b6868;
-    width: 100%;
-    padding: 0;
-    color: #fff;
-    margin-left: -40px;
-}
-
-.footer{
-
-    display: flex;
-    justify-content: center;
-    position: relative; 
-    top: 770px;
-    width: 100%;
-    padding-top: 20px;
-    padding-bottom: 20px;
-
-}
-
-/*  === media queries ==== */
-
-@media screen and (min-width: 1400px){
-
-    .footer{
-        top: 800px;
+    .container {
+    display : flex;
+    justify-content : center;
+    position : relative;
+    top : 10vh;
     }
 
-}
+    .pull-right {
+    float : right;
+    }
+
+    .text-center {
+    text-align : center;
+    }
+    .pull-left {
+    float : left;
+    }
+
+    .sign-in-area {
+    position : absolute;
+    display : flex;
+    flex-wrap : nowrap;
+    right : 20px;
+    }
+
+    .sign-in-area button {
+    height : 40px;
+    border-radius : 8px;
+    width : 100px;
+    color : #fff;
+    font-size : 17px;
+    text-transform : capitalize;
+    border : none;
+    background : #1a1ad2;
+    }
+
+    .sign-in-area p {
+    margin-top : 0;
+    }
+
+    .sign-in-area a {
+    right : 10px;
+    top : -12px;
+    text-decoration : none;
+    position : relative;
+    color : #2d2d92;
+    }
+
+    .sign-in-area .fa-lock {
+    padding-right : 5px;
+    }
+
+    .main-body img {
+    height : 40px;
+    }
+
+    .minor-logos {
+    margin-left : -100px;
+    margin-top : 10px;
+    }
+
+    .minor-logos span {
+    padding-left : 5px;
+    padding-right : 5px;
+    font-family : 'Ubuntu', sans-serif;
+    position : relative;
+    top : -10px;
+    font-size : 20px;
+    color : #887e7e;
+    }
+
+    .minor-logos img {
+    height : 25px;
+    }
+
+    .form-section {
+    background-color : #fff;
+    position : absolute;
+    margin-top : 120px;
+    margin-left : -35px;
+    padding : 40px;
+    }
+
+    .form-section, h1, p, a {
+    text-align : center;
+    font-family : 'Muli', sans-serif;
+    }
+    .form-section form {
+    padding-top : 35px;
+    padding-bottom : 35px;
+    }
+
+    .form-section input {
+    width : 100%;
+    border : #000 solid 1px;
+    margin-top : 20px;
+    padding : 10px;
+    border-radius : 3px;
+    margin-bottom : 20px;
+    }
+
+    .form-section label {
+    position : absolute;
+    left : 40px;
+    }
+
+    #phonenumber {
+    margin-top : 35px;
+    }
+
+    #password {
+    margin-top : 35px;
+    }
+
+    form p {
+    font-size : 10px;
+    text-align : left;
+    margin-top : -15px;
+    }
+
+    .submit-btn {
+    background-color : blue;
+    border : none;
+    height : 50px;
+    width : 100%;
+    margin-top : 10px;
+    margin-left : 10px;
+    color : #fff;
+    border-radius : 8px;
+    font-size : 18px;
+    font-family : 'Muli', sans-serif;
+    outline : none;
+    text-transform : capitalize;
+    }
+
+    .submit-btn i {
+    padding-right : 10px;
+    }
+
+    .form-footer {
+    left : 12%;
+    width : 80%;
+    position : absolute;
+    margin-top : -8px;
+    font-size : 12px;
+    }
+
+    .rupture {
+    position : absolute;
+    height : 70px;
+    margin-top : 40px;
+    background : #6b6868;
+    width : 100%;
+    padding : 0;
+    color : #fff;
+    margin-left : -40px;
+    }
+
+    .footer {
+    display : flex;
+    justify-content : center;
+    position : relative;
+    top : 770px;
+    width : 100%;
+    padding-top : 20px;
+    padding-bottom : 20px;
+    }
+
+    /* === media queries === */
+    @media screen and (min-width: 1400px) {
+    .footer {
+    top : 800px;
+    }
+    }
+    
