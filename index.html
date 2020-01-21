@@ -16,7 +16,7 @@
 
 <body>
 
-    <header class="sign-in-area ">
+    <header class="sign-in-area">
         <div>
             <p>Already have an Intuit account?</p>
             <a href="">I forgot my User ID or Password</a>
@@ -52,15 +52,20 @@
             <form action="#">
 
                 <label for="exampleInputEmail1">Email address</label><br>
-                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email" required>
 
-                <label for="exampleInputEmail1">Email address</label>
-                <input type="email" class="form-control" id="phonenumber" placeholder="Enter email">
+                <label for="exampleInputEmail1">phone (recommended)</label>
+                <input type="tel" class="form-control" id="phonenumber" placeholder="Telephone" required>
+                <p>Standard call, messaging or data rates may apply.</p>
+
+                <label for="exampleInputPassword1">Password</label>
+                <input type="password" class="form-control" id="password" placeholder="Password" required>
+
+                <button type="submit" class="submit-btn"><i class="fa fa-lock" aria-hidden="true"></i>Submit </button>
 
             </form>
 
         </section>
-
     </main>
 
 </body>

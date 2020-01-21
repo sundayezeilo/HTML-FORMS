@@ -106,7 +106,7 @@ body {
     background-color: #fff;
     position: absolute;
     margin-top: 120px;
-    margin-left: -40px;
+    margin-left: -60px;
     padding: 40px;
 }
 
@@ -139,6 +139,41 @@ body {
     
     left: 40px;
 }
+
 #phonenumber{
     margin-top: 35px;
+}
+
+#password{
+
+    margin-top: 35px;
+
+}
+
+form p{
+    
+    font-size: 10px;
+    text-align: left;
+    margin-top: -15px;
+}
+ 
+.submit-btn{
+
+    background-color: blue;
+    border: none;
+    height: 40px;
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: #fff;
+    border-radius: 8px;
+    font-size: 18px;
+    font-family: 'Muli', sans-serif;
+    outline: none;
+}
+
+.submit-btn i{
+
+    padding-right: 10px;
+    
 }
