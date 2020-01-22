@@ -53,8 +53,7 @@ a {
   font-family: "Muli", sans-serif;
 }
 
-
-.sign-in-area p {
+.sign-in-area > p {
   margin-top: 0;
 }
 
@@ -101,7 +100,6 @@ a {
   margin-left: -35px;
   padding: 40px;
 }
-
 
 .form-section form {
   padding-top: 35px;
