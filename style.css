@@ -39,18 +39,18 @@ body {
   background: #1a1ad2;
 }
 
-form p {
-  font-size: 10px;
-  text-align: left;
-  margin-top: -15px;
-}
-
 .form-section,
 h1,
 p,
 a {
   text-align: center;
   font-family: "Muli", sans-serif;
+}
+
+form p {
+  font-size: 10px;
+  text-align: left;
+  margin-top: -15px;
 }
 
 .sign-in-area > p {
