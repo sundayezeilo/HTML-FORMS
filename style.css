@@ -28,6 +28,10 @@ body {
   right: 20px;
 }
 
+.sign-in-area p{
+  margin-top: 0px;
+}
+
 .sign-in-area button {
   height: 40px;
   border-radius: 8px;
@@ -73,8 +77,11 @@ form p {
   height: 40px;
 }
 
+.major-logo{
+  margin-left: 112px;
+}
+
 .minor-logos {
-  margin-left: -100px;
   margin-top: 10px;
 }
 
@@ -97,7 +104,7 @@ form p {
   background-color: #fff;
   position: absolute;
   margin-top: 120px;
-  margin-left: -35px;
+  margin-left: 0px;
   padding: 40px;
 }
 
@@ -110,7 +117,8 @@ form p {
   width: 100%;
   border: #000 solid 1px;
   margin-top: 20px;
-  padding: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   border-radius: 3px;
   margin-bottom: 20px;
 }
@@ -118,6 +126,10 @@ form p {
 .form-section label {
   position: absolute;
   left: 40px;
+}
+
+input::placeholder {
+  padding-left: 5px
 }
 
 #phonenumber {
@@ -134,9 +146,9 @@ form p {
   height: 50px;
   width: 100%;
   margin-top: 10px;
-  margin-left: 10px;
+  margin-left: 0px;
   color: #fff;
-  border-radius: 8px;
+  border-radius: 3px;
   font-size: 18px;
   font-family: "Muli", sans-serif;
   outline: none;
@@ -172,6 +184,8 @@ form p {
   position: relative;
   top: 770px;
   width: 100%;
+  width: 60%;
+  left: 18%;
   padding-top: 20px;
   padding-bottom: 20px;
 }
