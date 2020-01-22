@@ -13,6 +13,10 @@ This is a simple project built only in html and plain css without any third part
 
 Distributed under the MIT License.
 
+## live version
+
+<https://rawcdn.githack.com/ezeilo-su/HTML-FORMS/2adecada0f60af4d5b2e347b783b8095bdd8a5fe/index.html>
+
 ## Contributors.
  
 - Peter robert Ndungu <https://github.com/peterrobert>
